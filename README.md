@@ -1,5 +1,5 @@
 # Projekt_WSB__21_RobotFramework
-Dodawanie produktu do koszyka oraz sprawdzenie czy ilosc produktow w koszyku sie zgadza.
+Dodawanie produktu do koszyka oraz sprawdzenie czy ilosc produktow w koszyku sie zgadza.,</br>
 Technologie:
 Python 3.9.0
 RobotFramework
