@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation    Dodawanie produktu do koszyka oraz sprawdzenie czy ilosc produktow w koszyku sie zgadza
 Library          SeleniumLibrary
-Setup            Prepare Env
 Resource                                Keywords.robot
 
 *** Test Cases ***
