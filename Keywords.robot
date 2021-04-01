@@ -2,8 +2,6 @@
 Resource                        Variables.robot
 
 *** Keywords ***
-Prepare Env
-        Set Selenium Speed                      0.2
 Otworz sklep internetowy
         Open Browser                            ${URL}        ${BROWSER}
         Maximize Browser Window
