@@ -1,5 +1,5 @@
 *** Settings ***
-Resource Variables.robot
+Resource                        Variables.robot
 
 *** Keywords ***
 Prepare Env
