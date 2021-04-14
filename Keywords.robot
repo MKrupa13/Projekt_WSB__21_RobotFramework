@@ -3,7 +3,7 @@ Resource                        Variables.robot
 
 *** Keywords ***
 Otworz sklep internetowy
-        Open Browser                            ${URL}        ${BROWSER}
+        Open Browser                            ${URL}        ${BROWSERv4}
         Maximize Browser Window
 Zaakceptuj wyskakujace okienki plikow cookie
         Click Element                           ${COOKIE}

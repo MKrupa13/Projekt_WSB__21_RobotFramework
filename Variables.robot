@@ -1,4 +1,7 @@
 *** Variables ***
+${BROWSERv4}                            headlessfirefox
+${BROWSERv3}                            headlesschrome
+${BROWSERv2}                            firefox
 ${BROWSER}                              chrome
 ${URL}                                  https://www.mantoshop.pl
 ${COOKIE}                               id:ckdsclmrshtdwn_v2
@@ -9,7 +12,7 @@ ${SORTY_BY_PRICE_LOW_TO_HIGH}           //a[@data-index="2"]
 ${FIRST_PRODUCT}                        //div[@id="search"]/div[1]
 ${FIRST_SIZE}                           //div[@id="projector_sizes_cont"]//a[1]
 ${ADD_TO_CART}                          id:projector_button_basket
-${LAST_PRODUCT}                         //div[@id="search"]/div[@class="product_wrapper col-md-4 col-xs-6"][last()]
+${LAST_PRODUCT}                         //div[@class="product_wrapper col-md-4 col-xs-6"][last()]
 ${LAST_SIZE}                            //div[@id="projector_sizes_cont"]//a[last()]
 ${CART_ITEMS_QUANTITY}                  //div[@id="menu_basket"]/a/span[@class="basket_count hidden-tablet"]
 ${QUANTITY}                             (2)
